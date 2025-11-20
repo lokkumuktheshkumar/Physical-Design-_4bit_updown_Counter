@@ -72,26 +72,34 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 ### Fig.1 Add slow Library set
 
 • add fast.lib with a label Fast or any identifier of your own.
+<img width="1919" height="1130" alt="Screenshot 2025-11-19 152443" src="https://github.com/user-attachments/assets/08ea35fc-aa48-40f5-8ca3-2d8b67c8b27a" />
 
 ### Fig.2 Add fast Library set
 
 • Adding RC Corners can also be done in a similar process. The temperature value can be found under the corresponding liberty file. Also, cap table and RC Tech files can be added from Foundry where available.
+<img width="1919" height="1120" alt="Screenshot 2025-11-19 152538" src="https://github.com/user-attachments/assets/63ec3bcd-dd60-4daf-989c-d9c930a5e669" />
 
 ### Fig.3 Add RC corner
 
 • Delay Corners are formed by combining Library Sets with RC Corners.
+<img width="1917" height="1123" alt="Screenshot 2025-11-19 152830" src="https://github.com/user-attachments/assets/449a243b-6e00-4134-9c37-6c4b182a63d6" />
 
 ### Fig.4 Add Delay corner Max_delay & Min_delay
 
 • Similarly, SDC can be read under the MMMC Object of “Constraints”.
+<img width="1919" height="1135" alt="Screenshot 2025-11-19 152936" src="https://github.com/user-attachments/assets/ad195103-6392-4cc9-8756-514f52a270cd" />
+<img width="1918" height="1128" alt="Screenshot 2025-11-19 153024" src="https://github.com/user-attachments/assets/eb988334-372e-4b3a-b78f-3f1b5f48f8d3" />
 
 ### Fig.5 SDC Constraint file
 
 • Analysis Views are formed from combinations of SDC and Delay Corner.
+<img width="1918" height="1131" alt="Screenshot 2025-11-19 153154" src="https://github.com/user-attachments/assets/52847ba9-8538-4ded-b9d5-ba52833d4d5d" />
 
 ### Fig.6 Add Analysis View Worstcase & Bestcase
 
 • Once “Best” and “Worst” Analysis views are created, assign them to Setup and Hold.
+<img width="1911" height="1140" alt="Screenshot 2025-11-19 153348" src="https://github.com/user-attachments/assets/f4e353c9-907d-4714-91f7-9fd302e87996" />
+<img width="1915" height="1136" alt="Screenshot 2025-11-19 153406" src="https://github.com/user-attachments/assets/aa4aeb4f-8bd0-4e21-ad33-5a01aa1664a1" />
 
 ### Fig.7 Add Setup Analysis View & Hold Analysis View
 
@@ -106,6 +114,9 @@ Adding Liberty Files (slow.lib, fast.lib) under “Library Sets
 In the Import Design window click the save option to save the Default.globals file
 
 • A rectangular or square box appears in your GUI if and only if all the inputs are read properly.
+<img width="1919" height="1133" alt="Screenshot 2025-11-19 153445" src="https://github.com/user-attachments/assets/38631e38-8812-43e8-85cd-9a6a79c6d6ec" />
+<img width="1918" height="1126" alt="Screenshot 2025-11-19 153500" src="https://github.com/user-attachments/assets/69524348-506d-4b47-98ac-e3c5fe5218f6" />
+<img width="985" height="832" alt="Screenshot 2025-11-19 153511" src="https://github.com/user-attachments/assets/1c70022c-3cc5-4450-80de-4fa31f876ff6" />
 
 ### Fig.8 Core area
 
@@ -114,6 +125,7 @@ In the Import Design window click the save option to save the Default.globals fi
 • The horizontal lines running along the width of Core are “Standard Cell Rows”. Every alternate of them are marked indicating alternate VDD and VSS rows. 
 
 • This setup is called “Flipped Standard Cell Rows”.
+<img width="1919" height="1130" alt="Screenshot 2025-11-19 153642" src="https://github.com/user-attachments/assets/e6b4f015-e3a1-425a-a4ca-975d9a075de0" />
 
 ### → Floorplan 
 
@@ -130,6 +142,7 @@ In the Import Design window click the save option to save the Default.globals fi
 ### Fig.9 Specify Floorplan 
 
 • The Yellow patch on the Left Bottom are the group of “Unassigned pins” which are to be  placed along the IO Boundary along with the Standard Cells [Gates].
+<img width="1426" height="860" alt="Screenshot 2025-11-20 082933" src="https://github.com/user-attachments/assets/8ea06195-b50d-4657-ad74-e2614a94e8c8" />
 
 #### → Power Planning
 
@@ -174,6 +187,7 @@ Under Connect Global Net Connects, we create two pins, one for VDD and one for V
 ### Fig.10 Power plan 
 
 The complete Power Planning process makes sure Every Standard Cell receives enough power to operate smoothly.
+<img width="1918" height="1136" alt="Screenshot 2025-11-19 154641" src="https://github.com/user-attachments/assets/2fe28c87-75a7-48ae-b83c-d98bb6b3871a" />
 
 #### → Placement 
 
@@ -186,6 +200,8 @@ The complete Power Planning process makes sure Every Standard Cell receives enou
 ### Fig.11 Placement of standard Cells 
 
 • You can toggle the Layer Visibility from the list on the Right. The List of Layers available are shown on the right under “Layer” tab with colour coding.
+<img width="1916" height="1128" alt="Screenshot 2025-11-19 161309" src="https://github.com/user-attachments/assets/a986da13-25c5-4da4-a376-43674d17c709" />
+<img width="1917" height="1133" alt="Screenshot 2025-11-19 161746" src="https://github.com/user-attachments/assets/b7118f50-f8d0-41d3-9e33-eb8c79ec1a71" />
 
 ## Result
 
